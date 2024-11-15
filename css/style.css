@@ -1,15 +1,15 @@
 /* General Styling */
 body {
     font-family: Arial, sans-serif;
-    color: #333;
-    background-color: #ffffff;
+    color: #14a820;
+    background-color: #9e2626;
     margin: 0;
 }
 
 /* Header Styling */
 header {
-    background-color: #4682B4;
-    color: #fff;
+    background-color: #4cbb71;
+    color: #0a0961;
     padding: 0.1rem;
     text-align: center;
 }
@@ -40,8 +40,13 @@ header nav ul li a {
 }
 
 .jumbotron {
+    background-image: url(../css/img/logo.webp);
     background-color: #46b4b4;
     color: #ffffff;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    position:relative;
 }
 
 .enroll {
@@ -99,3 +104,9 @@ footer {
     justify-content: center;
     text-align: center;
 }
+
+fieldset{
+text-align:left;
+font-weight:bold;
+}
+
